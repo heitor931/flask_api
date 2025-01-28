@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from password_module import  password_generator
+from api.password_module import  password_generator
 
 app = Flask(__name__)
 
